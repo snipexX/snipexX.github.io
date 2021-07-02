@@ -1,0 +1,28 @@
+:root {
+    --html: #89ff90;
+}
+
+
+#resosweppa {
+    background-color: var(--html);
+}
+
+dl, ol, ul {
+    margin-top: 20px;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+#resosweppa {
+    background-color: var(--html);
+    padding-top: 11px;
+}
+
+.navbar {
+    width: 1000%;
+}
+
+li {
+    list-style: none;
+    margin: 30px;
+}

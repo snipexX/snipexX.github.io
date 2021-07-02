@@ -1,0 +1,44 @@
+body {
+    background-image: url(../images/bgimg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    image-rendering: -webkit-optimize-contrast;
+}
+header {
+    background-color: black;
+}
+a:hover {
+    color: #8638c8;
+}
+
+a {
+    color: pink;
+    text-decoration: underline;
+    transition: 500ms ease-in-out;
+}
+
+* {
+    color: pink;
+}
+
+#returnReminder {
+    text-align: center;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+@font-face {font-family: "Chicken";
+    src: url("http://db.onlinewebfonts.com/t/fe2027c27b6a24505f548c6fd2e1076d.eot"); /* IE9*/
+    src: url("http://db.onlinewebfonts.com/t/fe2027c27b6a24505f548c6fd2e1076d.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("http://db.onlinewebfonts.com/t/fe2027c27b6a24505f548c6fd2e1076d.woff2") format("woff2"), /* chrome firefox */
+    url("http://db.onlinewebfonts.com/t/fe2027c27b6a24505f548c6fd2e1076d.woff") format("woff"), /* chrome firefox */
+    url("http://db.onlinewebfonts.com/t/fe2027c27b6a24505f548c6fd2e1076d.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
+    url("http://db.onlinewebfonts.com/t/fe2027c27b6a24505f548c6fd2e1076d.svg#Berlin Sans FB") format("svg"); /* iOS 4.1- */
+}
+
+* {
+    font-family: "Chicken";
+}

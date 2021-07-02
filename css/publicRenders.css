@@ -1,0 +1,33 @@
+:root {
+    --html: transparent;
+}
+
+dl, ol, ul {
+    padding-top: 9px;
+    background-color: var(--html);
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+}
+
+div#publicCSS {
+    background-color: var(--html);
+}
+
+.cssimglist li {
+    list-style: none;
+}
+
+.navbar {
+    width: 1000%;
+}
+
+a:hover {
+    color: black !important;
+}
+
+a {
+    color: #0d6efd;
+    text-decoration: underline;
+    transition: 500ms ease-in-out;
+}
